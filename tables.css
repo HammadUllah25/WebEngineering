@@ -1,0 +1,120 @@
+
+
+
+body {
+    height: 100%;
+    width: 99%;
+    background-color: antiquewhite;
+}
+
+.head1 {
+    text-align: center;
+    color: goldenrod;
+}
+
+.mainDiv {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    width: 600px;
+    table-layout: fixed;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    text-align: left;
+    
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.div2 {
+    margin-left: 20px;
+}
+
+.div1 {
+    margin-left: 0px;
+}
+
+.div3 {
+    margin-left: 0px;
+    margin-top: 150px;
+    
+}
+
+.div4 {
+    margin-left: 20px;
+    margin-top: 150px;
+}
+
+input {
+    width: 90px;
+    height: 23px;
+    
+    border: 2px solid rgb(179, 118, 78);
+    border-radius: 5px;
+    padding: 3px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#name1, #name2, #name3, #name4 {
+    width: 102px;
+    
+}
+
+#city1, #city2, #city3, #city4 {
+    width: 90px;
+    margin-left: 4px;
+}
+
+#age1, #age2, #age3, #age4 {
+    width: 85px;
+    margin-left: 15px;
+}
+
+#phone1, #phone2, #phone3, #phone4 {
+    width: 102px;
+    margin-left: 21px;
+}
+
+#year1, #year2, #year3, #year4 {
+    width: 70px;
+    margin-left: 5px;
+}
+
+
+
+.icon1 {
+    height: 22px;
+    width: 22px;
+    padding: 0px;
+    color: aquamarine;
+    cursor: pointer;
+}
+
+button {
+    position: fixed;
+    padding: 1px;
+    background-color: antiquewhite;
+    margin-left: 12px;
+}
+
+button:hover {
+    background-color: green;
+}
+
